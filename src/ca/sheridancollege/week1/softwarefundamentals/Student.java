@@ -12,7 +12,16 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class Student {
     
     private String name;
+    private int id;
+    private int age;
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
     /**
      * Get the value of name
      *
@@ -29,6 +38,20 @@ public class Student {
      */
     public void setName(String name) {
         this.name = name;
+    }
+
+    /**
+     * @return the age
+     */
+    public int getAge() {
+        return age;
+    }
+
+    /**
+     * @param age the age to set
+     */
+    public void setAge(int age) {
+        this.age = age;
     }
 
 }
