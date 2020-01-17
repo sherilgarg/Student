@@ -14,15 +14,6 @@ public class Student {
     private String name;
     private int id;
     private int age;
-    private String program;
-
-    public String getProgram() {
-        return program;
-    }
-
-    public void setProgram(String program) {
-        this.program = program;
-    }
 
     public int getId() {
         return id;
